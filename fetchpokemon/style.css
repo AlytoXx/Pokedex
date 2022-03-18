@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ------------------header */
+header{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+#img{
+
+    height: 200px;
+    width: 35%;
+}
+#filter{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 3%;
+}
+/* -------------------section */
+section{
+    display: grid;
+  
+}
+ul{
+    margin-left: 10%;
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  padding-right: 12%;
+}
+
+li{
+    justify-content: center;
+    padding: 10%;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-radius: 25px;
+    margin: 10%;
+    list-style: none;
+    width: 50%;
+}
+#pok{
+    width: 100%
+}
+
+#title{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+

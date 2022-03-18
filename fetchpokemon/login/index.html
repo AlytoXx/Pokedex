@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/fetchpokemon/style.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="sec">
+        <h1>Login</h1>
+        <input type="email" id="email" />
+        <input type="password" />
+        <button id="button">log</button>
+      </div>
+    </section>
+    <!-- Firebase -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+
+    <script type="module">
+      // Initialize Firebase
+      firebase.initializeApp({
+        apiKey: "AIzaSyD00cRXFYl2i-1XMfWpUZ4tRYmSgh-ylxc",
+        authDomain: "abfirebase-bf069.firebaseapp.com",
+        projectId: "abfirebase-bf069",
+        storageBucket: "abfirebase-bf069.appspot.com",
+        messagingSenderId: "58221352827",
+        appId: "1:58221352827:web:348703bda3cf187302cfde",
+      });
+    </script>
+  </body>
+  <script src="/fetchpokemon/login/script.js"></script>
+</html>

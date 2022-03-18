@@ -1,0 +1,16 @@
+body {
+  height: 50vh;
+  background-color: aqua;
+  background-image: url("/fetchpokemon/10557733.webp");
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  text-align: center;
+}
+
+input {
+  background-color: rgba(0, 255, 255, 0.541);
+}
